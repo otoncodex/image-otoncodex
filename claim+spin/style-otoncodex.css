@@ -1,0 +1,795 @@
+body {
+  margin: 0px;
+  background: #aaadd4;
+  color: #0d0014;
+  font-family: arial;
+}
+
+.conatinerotoncodexmoba {
+  background: url(https://rawcdn.githack.com/otoncodex/image-otoncodex/c0a5ef06057be91565d185ecc18752f6e88fd52f/claim+spin/bg-4fed3b35.png) no-repeat center;
+  background-size: cover;
+}
+
+.headerotoncodexmoba {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0px;
+}
+
+.kiriheadmoba {
+  margin-left: 15px;
+}
+
+.kiriheadmoba img {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+.kananheadmoba {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.toastmobotoncodex {
+  background: url(https://rawcdn.githack.com/otoncodex/image-otoncodex/759531aad37cb154bcef18de5f3d98d3c041b3e5/claim+spin/nick.png) no-repeat center;
+  background-size: 100% 100%;
+  height: 25px;
+  padding: 0px 20;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  font-weight: 400;
+  margin-right: 15px;
+}
+
+.toastmobotoncodex p {
+  margin-block: 0px;
+  font-size: 15px;
+}
+
+.rulesmobaotoncodex {
+  background: url(https://rawcdn.githack.com/otoncodex/image-otoncodex/759531aad37cb154bcef18de5f3d98d3c041b3e5/claim+spin/rules-tab.png) no-repeat center;
+  background-size: 100% 100%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  font-weight: 600;
+}
+
+.rulesmobaotoncodex p {
+  margin-block: 0px;
+  margin: 15% auto;
+}
+
+.bannerotoncodexmoba {
+  padding: 2.5em 10px 10px;
+}
+
+.sliderotoncodexbanner {
+  border: 2px solid #c847e2;
+  border-radius: 10px;
+  background: url(https://m.mobilelegends.com/static/images/preload.jpg) no-repeat center;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 184px;
+}
+
+.sliderotoncodexbanner img {
+  width: 100%;
+  border-radius: 10px;
+  display: none;
+}
+
+.menuotoncodexmoba {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.itemmenuotoncodexmoba {
+  width: 30%;
+  background: url(https://rawcdn.githack.com/otoncodex/image-otoncodex/759531aad37cb154bcef18de5f3d98d3c041b3e5/claim+spin/menu.png) no-repeat center;
+  background-size: 100% 100%;
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: .4px;
+  filter: grayscale(1);
+}
+
+.itemmenuotoncodexmoba p {
+  margin-block: 0px;
+  line-height: 35px;
+  color: #cbfbfd;
+}
+
+.otoncodexactive {
+  filter: unset;
+}
+
+.isimobaotoncodex {
+  padding: 1.5em 10px 4em;
+}
+
+.menuboxmobaotoncodex {
+  display: flex;
+  justify-content: space-between;
+  background: #2d3a6c;
+  color: #aaadd4;
+  font-size: 13px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.itemotoncodexmenu {
+  text-align: center;
+  width: 50%;
+  line-height: 28px;
+  color: #cbfbfd;
+}
+
+.itemotoncodexmenu p {
+  margin-block: 0px;
+  line-height: 30px;
+}
+
+.kiriotoncodexaktif {
+  background: url(https://rawcdn.githack.com/otoncodex/image-otoncodex/759531aad37cb154bcef18de5f3d98d3c041b3e5/claim+spin/kiri-aktif-oton.png) no-repeat center;
+  background-size: 100% 100%;
+  color: #0d0014;
+}
+
+.kananotoncodexaktif {
+  background: url(https://rawcdn.githack.com/otoncodex/image-otoncodex/759531aad37cb154bcef18de5f3d98d3c041b3e5/claim+spin/kanan-aktif-oton.png) no-repeat center;
+  background-size: 100% 100%;
+  color: #0d0014;
+}
+
+.boxitemotoncodexmoba {
+  background: url(https://rawcdn.githack.com/otoncodex/image-otoncodex/759531aad37cb154bcef18de5f3d98d3c041b3e5/claim+spin/card-Box-Bg-f3fcd521.png) no-repeat center;
+  background-size: 100% 100%;
+  padding: 10px 10px 20px;
+  height: 370px;
+}
+
+.contotoncodexitem {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  max-height: 385px;
+  height: 100%;
+  overflow-x: overlay;
+}
+
+.itemotoncodexmoba {
+  background: url(https://rawcdn.githack.com/otoncodex/image-otoncodex/759531aad37cb154bcef18de5f3d98d3c041b3e5/claim+spin/card-Bg-333369c7.png) no-repeat center;
+  background-size: 100% 100%;
+  width: 90px;
+  height: 185px;
+  display: inline-grid;
+  justify-items: center;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.imgitemotoncodexmoba {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.imgitemotoncodexmoba img {
+  width: 100%;
+  border-radius: 5px;
+  max-height: 135px;
+  width: 100%
+}
+
+.itemotoncodexmoba button {
+  width: 100%;
+  background: url(https://rawcdn.githack.com/otoncodex/image-otoncodex/759531aad37cb154bcef18de5f3d98d3c041b3e5/claim+spin/btn-active-oton.png) no-repeat center;
+  background-size: 100% 100%;
+  border: none;
+  text-align: center;
+  line-height: 23px;
+  color: #0d0014;
+  outline: none;
+  font-size: 12px;
+  border-radius: 25px;
+}
+
+.ucapanotoncodexspin {
+  text-align: center;
+}
+
+.ucapanotoncodexspin p {
+  font-size: 14px;
+}
+
+.boxspinotoncodexmoba {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.itemspinotoncodexmoba {
+  background: url(https://rawcdn.githack.com/otoncodex/image-otoncodex/759531aad37cb154bcef18de5f3d98d3c041b3e5/claim+spin/quan.3393c6c5.png) no-repeat center;
+  background-size: 100% 100%;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.darkWheel {
+  filter: brightness(0.5);
+}
+
+.ledWheel {
+  filter: drop-shadow(2px 4px 6px #681794);
+  ;
+}
+
+.imgotoncodexspinmoba {}
+
+.imgotoncodexspinmoba img {
+  width: 60px;
+  height: 60px;
+  margin: 8% auto;
+}
+
+.buttonspinotoncodexmoba {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.buttonspinotoncodexmoba button {
+  background: url(https://rawcdn.githack.com/otoncodex/image-otoncodex/759531aad37cb154bcef18de5f3d98d3c041b3e5/claim+spin/spin-otoncodex.png) no-repeat center;
+  background-size: 100% 100%;
+  color: #0d0014;
+  line-height: 33px;
+  padding: 0px 25px;
+  text-align: center;
+  border: none;
+  filter: drop-shadow(2px 4px 6px #0d0014);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.popotoncodexrulesmoba {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: #000000ab;
+}
+
+.boxmobapoprules {
+  background: url(https://rawcdn.githack.com/otoncodex/image-otoncodex/759531aad37cb154bcef18de5f3d98d3c041b3e5/claim+spin/rule-Bg-3ab590a2.png) no-repeat center;
+  background-size: 100% 100%;
+  max-width: 411px;
+  width: 80%;
+  margin: 34% auto;
+}
+
+.closepoprulesotoncodex {
+  text-align: right;
+}
+
+.closepoprulesotoncodex img {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  right: 4%;
+  top: 15%;
+}
+
+.boxmobarulesotoncodex {
+  padding: 0px 0px 20px;
+}
+
+.ucapanpopotoncodexrules {
+  text-align: center;
+  color: #480e98;
+  letter-spacing: .4px;
+}
+
+.ucapanpopotoncodexrules h3 {
+  padding: 1.2em 0px 0px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.steprulesotoncodex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  padding: 10px 20px;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.steprulesotoncodex span {
+  margin-bottom: 10px;
+}
+
+.trueidotoncodexmoba {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: #000000c2;
+}
+
+.boxtrueidotoncodex {
+  background: url(https://rawcdn.githack.com/otoncodex/image-otoncodex/759531aad37cb154bcef18de5f3d98d3c041b3e5/claim+spin/trueid-otoncodex.png) no-repeat center;
+  background-size: 100% 100%;
+  padding: 30px 20px;
+  width: 80%;
+  margin: 66% auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.ucapanboxidotoncodex p {
+  margin-block: 0px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  text-shadow: 0px 2px 7px #af35ff;
+}
+
+.inputidotoncodex {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0px 10px;
+}
+
+.inputidotoncodex input {
+  width: 100%;
+  background: url(https://rawcdn.githack.com/otoncodex/image-otoncodex/759531aad37cb154bcef18de5f3d98d3c041b3e5/claim+spin/trueid-otoncodex.png) no-repeat center;
+  background-size: 100% 100%;
+  line-height: 42px;
+  color: #fff;
+  font-size: 18px;
+  padding: 0px 10px;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 4px 0px #fff;
+}
+
+.zoneid {
+  margin-left: 10px !important;
+  width: 65% !important;
+}
+
+.inputidotoncodex input::-webkit-input-placeholder {
+  /* Edge */
+  color: #bdbdbd;
+}
+
+.inputidotoncodex input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #bdbdbd;
+}
+
+.inputidotoncodex input::placeholder {
+  color: #bdbdbd;
+}
+
+.alertotoncodexid {
+  width: 100%;
+  margin-bottom: 10px;
+  height: 20px;
+}
+
+.warn {
+  display: none;
+}
+
+.buttonidotoncodex {
+  text-align: center;
+}
+
+.buttonidotoncodex button {
+  background: url(https://rawcdn.githack.com/otoncodex/image-otoncodex/759531aad37cb154bcef18de5f3d98d3c041b3e5/claim+spin/btn-active-oton.png) no-repeat center;
+  background-size: 100% 100%;
+  line-height: 30px;
+  font-size: 17px;
+  color: #0d0014;
+  border: none;
+  padding: 0px 35px;
+  font-weight: 500;
+  border-radius: 50px;
+    outline: none;
+}
+
+.otoncodex-login {
+  background: #000000c4;
+  z-index: 999999;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+  top: 0;
+  left: 0;
+}
+
+.pilihan-login {
+  background: rgba(18, 39, 70, .94);
+  position: relative;
+  display: inline-block;
+  width: 90vw;
+  max-width: 675px;
+  min-height: 80px;
+  border: 1px solid #4c87d4;
+  font-size: 12px;
+  color: #98e8ff;
+  margin: 44% auto;
+  border-radius: 5px;
+}
+
+.close-otoncodexlog {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 15px;
+  right: 15px;
+  background: url(https://rawcdn.githack.com/otoncodex/image-otoncodex/759531aad37cb154bcef18de5f3d98d3c041b3e5/claim+spin/close-otoncodex.png) no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.ucapan-login {
+  text-align: center;
+  font-size: 22px;
+  padding: 40px 0 30px;
+  font-family: Arial;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.btnlogotoncodex {
+  position: relative;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 77%;
+  height: 50px;
+  line-height: 20px;
+  background: url(https://rawcdn.githack.com/otoncodex/image-otoncodex/417326f57e7c1d405d655b76dc7bb6d382c392c1/btn-ml-log.png) no-repeat;
+  background-size: 100% 100%;
+  margin: 0 auto 15px;
+  padding-left: 15px;
+  color: #fff;
+  font-size: 18px;
+  text-align: left;
+  border: none;
+}
+
+.rewardotoncodexspin {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  background: #000000ab;
+}
+
+.boxrewardspinotoncodex {
+  background: url(https://rawcdn.githack.com/otoncodex/image-otoncodex/417326f57e7c1d405d655b76dc7bb6d382c392c1/claim+spin/card-Box-Bg-f3fcd521.png) no-repeat center;
+  background-size: 100% 100%;
+  width: 80%;
+  margin: 56% auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.ucapanspinotoncodexreward p {
+  color: #af35ff;
+  font-size: 25px;
+  font-weight: 600;
+  margin-block: 0px;
+  text-shadow: 1px 2px 1px #a53dee;
+}
+
+.boxgambarotoncodex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.boxgambarotoncodex img {
+  width: 80px;
+}
+
+.boxgambarotoncodex span {
+  margin-top: 5px;
+}
+
+.buttonrewardspinotoncodex {
+  padding-top: 20px;
+}
+
+.buttonrewardspinotoncodex button {
+  background: url(https://rawcdn.githack.com/otoncodex/image-otoncodex/417326f57e7c1d405d655b76dc7bb6d382c392c1/claim+spin/btn-active-oton.png) no-repeat center;
+  background-size: 100% 100%;
+  line-height: 30px;
+  font-size: 17px;
+  color: #0d0014;
+  border: none;
+  padding: 0px 35px;
+  font-weight: 500;
+  border-radius: 25px;
+}
+
+.otoncodexhostslide {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 20px;
+  bottom: 20px;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.dot {
+  background: transparent;
+  width: 45px;
+  height: 8px;
+  border: 1px solid #c1c6fc;
+  background-size: 100%;
+  position: relative;
+  margin: 0px 5px;
+  border-radius: 10px;
+}
+
+.active {
+  background: #9e3fbe;
+}
+
+.verificationotoncodexmoba {
+  background: url(https://rawcdn.githack.com/otoncodex/image-otoncodex/417326f57e7c1d405d655b76dc7bb6d382c392c1/claim+spin/card-Box-Bg-f3fcd521.png) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.otoncodexformmoba {
+  padding: 15px;
+}
+
+.itemformotoncodexmoba {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  margin-bottom: 15px;
+}
+
+.doubleformotoncodex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.itemformkuprit {
+  width: 100%;
+  text-align: left;
+}
+
+.itemformkuprit label {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.itemformkuprit input {
+  background: url(https://rawcdn.githack.com/otoncodex/image-otoncodex/759531aad37cb154bcef18de5f3d98d3c041b3e5/claim+spin/trueid-otoncodex.png) no-repeat center;
+  background-size: 100% 100%;
+  font-size: 20px;
+  color: #fff;
+  line-height: 35px;
+  padding: 0px 10px;
+  width: 100%;
+}
+
+.itemformotoncodexmoba label {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.itemformotoncodexmoba input {
+  background: url(https://rawcdn.githack.com/otoncodex/image-otoncodex/759531aad37cb154bcef18de5f3d98d3c041b3e5/claim+spin/trueid-otoncodex.png) no-repeat center;
+  background-size: 100% 100%;
+  font-size: 20px;
+  color: #fff;
+  line-height: 35px;
+  padding: 0px 10px;
+  width: 100%;
+}
+
+.itemformotoncodexmoba select {
+  background: url(https://rawcdn.githack.com/otoncodex/image-otoncodex/759531aad37cb154bcef18de5f3d98d3c041b3e5/claim+spin/trueid-otoncodex.png) no-repeat center;
+  background-size: 100% 100%;
+  font-size: 20px;
+  color: #fff;
+  padding: 8px 10px;
+  width: 100%;
+}
+
+.itemformotoncodexmoba button {
+  background: url(https://rawcdn.githack.com/otoncodex/image-otoncodex/417326f57e7c1d405d655b76dc7bb6d382c392c1/claim+spin/btn-otoncodex.png) no-repeat center;
+  background-size: 100% 100%;
+  border: none;
+  text-align: center;
+  line-height: 35px;
+  color: #0d0014;
+  outline: none;
+  font-size: 18px;
+  font-weight: 600;
+  width: 42%;
+  padding: 0px 30px;
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+.itemformkuprit select {
+  background: url(https://rawcdn.githack.com/otoncodex/image-otoncodex/759531aad37cb154bcef18de5f3d98d3c041b3e5/claim+spin/trueid-otoncodex.png) no-repeat center;
+  background-size: 100% 100%;
+  font-size: 20px;
+  color: #fff;
+  padding: 8px 10px;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.triple {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subverifotoncodex {
+  padding: 0px 10px;
+}
+
+.ucapansubverifotoncodex {
+  background: url(https://rawcdn.githack.com/otoncodex/image-otoncodex/759531aad37cb154bcef18de5f3d98d3c041b3e5/claim+spin/trueid-otoncodex.png) no-repeat center;
+  background-size: 100% 100%;
+  text-align: center;
+}
+
+.ucapansubverifotoncodex p {
+  color: #c7c7f9;
+  margin-block: 0px;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.boxcompleteotoncodexmoba {
+  text-align: center;
+  padding: 4em 0px 5em;
+}
+
+.boxcompleteotoncodexmoba p {
+  padding: 0px 0px 3em;
+  font-size: 18px;
+}
+
+.boxcompleteotoncodexmoba button {
+  background: url(https://rawcdn.githack.com/otoncodex/image-otoncodex/417326f57e7c1d405d655b76dc7bb6d382c392c1/claim+spin/btn-otoncodex.png) no-repeat center;
+  background-size: 100% 100%;
+  border: none;
+  text-align: center;
+  color: #0d0014;
+  outline: none;
+  font-size: 18px;
+  width: 40%;
+  line-height: 40px;
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+@media only screen and (max-width: 361px) {
+  .sliderotoncodexbanner {
+    width: 100%;
+    height: 160px;
+  }
+
+  .dot {
+    height: 4px;
+  }
+
+  .boxitemotoncodexmoba {
+    height: 310px;
+  }
+
+  .itemotoncodexmoba {
+    width: 75px;
+    height: 157px;
+  }
+
+  .buttonspinotoncodexmoba {
+    padding-top: 11px;
+  }
+
+  .ucapanspinotoncodexreward p {
+    font-size: 21px;
+    text-shadow: 1px 1px 1px #a53dee;
+  }
+
+  .boxgambarotoncodex img {
+    width: 70px;
+  }
+
+  .boxgambarotoncodex span {
+    font-size: 14px;
+  }
+
+  .ucapansubverifotoncodex p {
+    font-size: 18px;
+  }
+
+  .itemformotoncodexmoba input {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .itemformkuprit select {
+    font-size: 18px;
+    padding: 6px 10px;
+  }
+
+  .itemformotoncodexmoba select {
+    font-size: 18px;
+    padding: 6px 10px;
+  }
+
+  .itemformotoncodexmoba button {
+    line-height: 32px;
+    font-size: 16px;
+    width: 39%;
+  }
+
+  .boxcompleteotoncodexmoba p {
+    font-size: 16px;
+  }
+
+  .boxcompleteotoncodexmoba button {
+    font-size: 16px;
+    width: 34%;
+    line-height: 32px;
+  }
+}
